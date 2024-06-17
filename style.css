@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Jost', sans-serif;
+  background-color: #f7e1d7;
+  color: #004921;
+  font-size: 18px;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.header-card {
+  background-color: #FAE1DC;
+  padding: 40px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Calistoga', serif;
+  color: #FA610E;
+  font-size: 30px;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #EF7401;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #D51E0B;
+}
+
+.card {
+  background-color: #ffc6be;
+  padding: 30px;
+  max-width: 600px;
+  margin: 25px auto; /* Centre les cards horizontalement */
+  border-radius: 20px;
+  border: 2px solid #e6b0a9;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #FFD6CC;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+
+#follow-me-footer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #004921;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  display: inline-block; /* Permet d'afficher les éléments de la liste sur une seule ligne */
+}
+
+.social-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.social-links li a {
+  text-decoration: none;
+  color: #EF7401;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.social-links li a:hover {
+  color: #D51E0B;
+}
+
+/* Media query pour ajuster la marge des cards sur les petits écrans */
+@media (max-width: 650px) {
+  .card {
+    margin: 15px 10px; /* Ajuste la marge pour les petits écrans */
+    padding: 20px; /* Ajuste le padding pour les petits écrans */
+  }
+}
